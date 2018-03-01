@@ -1,0 +1,7 @@
+about_python_chatbot:
+  image: psygrammer/about_python_chatbot:0.1
+  ports:
+    - "8888:8888"
+  volumes:
+    - ../:/home/jovyan/work/about_python_chatbot
+  tty: true
